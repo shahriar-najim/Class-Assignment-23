@@ -1,0 +1,252 @@
+
+
+/* header-section */
+.header-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo-section img{
+    width: 100px;
+    padding: 18px 0;
+}
+.menu-section ul{
+    display: flex;
+}
+.menu-section ul li{
+    padding: 20px 10px;
+}
+.menu-section ul li a{
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+}
+.menu-section ul li a:hover{
+    color: rgb(24, 155, 148);
+}
+
+/* content-section */
+
+.content-section{ 
+    display: flex;
+}
+.section-1{
+    width: 75%;  
+}
+.section-11{
+    width: 25%;
+    background: #d2d2d2;
+    justify-content: space-evenly;
+    border-left: 2px solid red;
+    height: 700px;
+}
+.section-11 .side-bar img{
+    width: 300px;
+}
+.first-line{
+    display: flex;
+    padding:20px;
+}
+.first-line .box-1{
+    width: 33%;
+    height: 200px;
+    border: 1px solid #57ab57;
+    margin-right: 10px;
+    display: flex; 
+}
+.box-1 p{
+    background: red;
+    padding: 10px;
+}
+.first-line .box-1 .div-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.first-line .box-2{
+    width: 33%;
+    height: 200px;
+    border: 1px solid #57ab57;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-2 p{
+    background: red;
+    padding: 10px;
+}
+.first-line .box-3{
+    width: 33%;
+    height: 200px;
+    border: 1px solid #57ab57;
+    margin-right: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.box-3 p{
+    background: red;
+    padding: 10px;
+    margin-bottom: 0;
+}
+.section-11 .side-bar{
+    padding: 20px;
+}
+.side-bar p{
+    font-size: 15px;
+}
+.And-line{
+    display: flex;
+    padding: 20px;
+}
+.And-line .shap-1{
+    width: 25%;
+    height: 160px;
+    border: 1px solid #57ab57;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.shap-1 p{
+    font-size: 12px;
+    padding: 20px;
+}
+.And-line .shap-2{
+    width: 50%;
+    height: 160px;
+    border: 1px solid #57ab57;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.shap-2 p{
+    font-size: 12px;
+    padding: 20px;
+}
+.And-line .shap-3{
+    width: 25%;
+    height: 160px;
+    border: 1px solid #57ab57;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.shap-3 p{
+    font-size: 12px;
+    padding: 20px;
+}
+.last-line{
+    display: flex;
+    padding: 20px;
+}
+.last-line .box-11{
+    width: 33%;
+    height: 160px;
+    border: 1px solid #57ab57;
+    margin-right: 10px;
+    display: flex;
+    padding: 10px;
+}
+.box-11 ul{
+    display: flex;
+}
+.box-11 ul li{
+    list-style: none;
+    justify-content: space-around;
+}
+.box-11 ul li p{
+    color: #fff;
+    background: red;
+    padding: 10px ;
+    font-size: 10px;
+    border: 1px solid #57ab57;
+}
+.box-22{
+    width: 33%;
+    height: 160px;
+    border: 1px solid #57ab57;
+    margin-right: 10px;
+    display: flex;
+    padding: 10px;
+}
+.box-22 ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-content: flex-start;
+}
+.box-22 ul li{
+    list-style: none;
+}
+.box-22 ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: red;
+    padding: 10px;
+    font-size: 10px;
+    border: 1px solid #57ab57;
+}
+.box-33{
+    width: 33%;
+    height: 160px;
+    border: 1px solid #57ab57;
+    margin-right: 10px;
+    display: flex; 
+    padding: 10px ;
+    justify-content: space-around;
+}
+.box-33 .di-1{
+    align-self: flex-start;
+}
+.di-1 p{
+    color: #fff;
+    background: red;
+    padding: 10px;
+    border: 1px solid #57ab57;
+    font-size: 15px;
+}
+.box-33 .di-2{
+    align-self: center;
+}
+.di-2 p{
+    color: #fff;
+    background: red;
+    padding: 10px;
+    border: 1px solid #57ab57;
+    font-size: 15px;
+}
+.box-33 .di-3{
+    align-self: flex-end;
+}
+.di-3 p{
+    color: #fff;
+    background: red;
+    padding: 10px;
+    border: 1px solid #57ab57;
+    font-size: 15px;
+}
+.footer-section{
+    text-align: center !important;
+}
+.menu1-section ul li{
+    display: inline-block;
+    padding: 20px 10px;
+}
+.menu1-section ul li a{
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+}
+.menu1-section ul li a:hover{
+    color: rgb(24, 155, 148);
+}
